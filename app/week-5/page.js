@@ -1,0 +1,10 @@
+import DogForm from "./dog-form";
+
+export default function Page() {
+  return (
+    <div className="m-4">
+      <h1 className="text-4xl m-2 bold">Week 5: Interactivity with Forms</h1>
+      <DogForm />
+    </div>
+  );
+}
